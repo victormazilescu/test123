@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+:root {
+  --font: "Poppins";
+  --sleepy-lilla: #d6d8ff;
+}
+
 .body {
-  position: relative;
   width: 1440px;
   height: 1640px;
   background: #d6d8ff;

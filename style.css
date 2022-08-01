@@ -1,6 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-:root {
-  --font: "Poppins";
-  --sleepy-lilla: #d6d8ff;
+* {
+  position: relative;
+  width: 1440px;
+  height: 1640px;
+
+  /* light mauve */
+
+  background: #d6d8ff;
+
+  .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 1440px;
+    height: 1640px;
+    left: 0px;
+    top: 0px;
+  }
 }

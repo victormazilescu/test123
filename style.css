@@ -87,13 +87,11 @@
   /* nav-list item */
 
   /* Auto layout */
-
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   padding: 10px;
   gap: 10px;
-
   width: 136px;
   height: 60px;
 
@@ -106,4 +104,5 @@
   flex: none;
   order: 1;
   flex-grow: 0;
+  justify-content: space-around;
 }

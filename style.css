@@ -122,7 +122,7 @@ a:active {
   /* nav-list item */
 
   /* Auto layout */
-  ddisplay: flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
   padding: 10px;
@@ -132,7 +132,6 @@ a:active {
   /* background-color: #2B2D6C; */
   border: none;
   color: #2B2D6C;
-  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   /* display: inline-block; */
@@ -158,11 +157,18 @@ a:active {
 }
 
 .space1 {
-  height: 60px;
+  height: 30px;
 }
 .space2 {
   height: 60px;
 }
 .space3 {
   height: 60px;
+}
+
+. {
+}
+.social {
+color: white;
+font-size: 20px;
 }

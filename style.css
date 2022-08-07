@@ -112,7 +112,9 @@
   flex-direction: row;
   flex-wrap: nowrap;
 }
-
+a:active {
+  background-color: white;
+}
 .nav-btn {
   /* nav-list item */
 
@@ -150,4 +152,14 @@
   order: 1;
   flex-grow: 0;
   justify-content: space-around;
+}
+
+.space1 {
+  height: 60px;
+}
+.space2 {
+  height: 60px;
+}
+.space3 {
+  height: 60px;
 }

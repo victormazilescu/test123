@@ -43,7 +43,6 @@
 .carousel {
   width: 1300px;
   height: 400px;
-  background: tomato;
   display: flex;
   justify-content: space-between;
 }
@@ -75,27 +74,30 @@
 }
 
 .nav-window1 {
-  background-image: url("rectangle 14.jpg");
+  background-image: url("slice 2.jpg");
   width: 400px;
   height: 400px;
+  border-radius: 8PX;
   display: flex;
   /* align-content: flex-end; */
   align-items: flex-end;
   justify-content: center;
 }
 .nav-window2 {
-  background-image: url("rectangle 15.png");
+  background-image: url("slice 3.jpg");
   width: 400px;
   height: 400px;
+  border-radius: 8px;
   display: flex;
   /* align-content: flex-end; */
   align-items: flex-end;
   justify-content: center;
 }
 .nav-window3 {
-  background-image: url("rectangle 16.png");
+  background-image: url("Slice 4.jpg");
   width: 400px;
   height: 400px;
+  border-radius: 8PX;
   display: flex;
   /* align-content: flex-end; */
   align-items: flex-end;

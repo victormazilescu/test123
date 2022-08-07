@@ -5,11 +5,20 @@
   height: 100%;
   background: #d6d8ff;
   font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;    
+  align-content: space-around;
+  justify-content: flex-start;
+  align-items: center;
+  
 }
 
 .frame {
   width: 1300px;
-  margin: auto;
+  margin: 0;
+  display: flex ;
+  flex-direction: column;
 }
 
 .menu-container {
@@ -29,12 +38,12 @@
   background-image: url("hero.jpg");
   width: 1300px;
   height: 700px;
+  border-radius: 8px;
 }
 
 .carousel {
   width: 1300px;
   height: 400px;
-  background: tomato;
   display: flex;
   justify-content: space-between;
 }
@@ -57,23 +66,45 @@
   /* Auto layout */
   display: flex;
   flex-direction: row;
-  padding: 20px 0px;
-  gap: 20px;
   width: wrap-content;
   justify-content: space-around;
   align-items: center;
   width: fit-content;
 }
 
-.nav-window {
+.nav-window1 {
+  background-image: url("slice 2.jpg");
   width: 400px;
   height: 400px;
+  border-radius: 8PX;
   display: flex;
   /* align-content: flex-end; */
   align-items: flex-end;
   justify-content: center;
 }
-
+.nav-window2 {
+  background-image: url("slice 3.jpg");
+  width: 400px;
+  height: 400px;
+  border-radius: 8px;
+  display: flex;
+  /* align-content: flex-end; */
+  align-items: flex-end;
+  justify-content: center;
+}
+.nav-window3 {
+  background-image: url("Slice 4.jpg");
+  width: 400px;
+  height: 400px;
+  border-radius: 8PX;
+  display: flex;
+  /* align-content: flex-end; */
+  align-items: flex-end;
+  justify-content: center;
+}
+1 {
+  background-image: url("rectangle 14.png");
+}
 .footer-social {
   display: flex;
   width: 100%;
@@ -82,7 +113,9 @@
   flex-direction: row;
   flex-wrap: nowrap;
 }
-
+a:active {
+  background-color: white;
+}
 .nav-btn {
   /* nav-list item */
 
@@ -92,8 +125,21 @@
   align-items: center;
   padding: 10px;
   gap: 10px;
-  width: 136px;
   height: 60px;
+  /* background-color: #2B2D6C; */
+  border: none;
+  color: #2B2D6C;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 20px;
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.15));
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  justify-content: space-around;
+  align-content: center;
+  /* border-radius: 6px;
 
   /* button shadow 1 */
 
@@ -105,4 +151,21 @@
   order: 1;
   flex-grow: 0;
   justify-content: space-around;
+}
+
+.space1 {
+  height: 30px;
+}
+.space2 {
+  height: 60px;
+}
+.space3 {
+  height: 60px;
+}
+
+. {
+}
+.social {
+color: white;
+font-size: 20px;
 }
